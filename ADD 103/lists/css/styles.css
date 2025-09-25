@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(181, 181, 181);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+h1 {
+  color: azure;
+  text-align: center;
+}
+
+ol {
+  list-style-type: lower-latin;
+}
+
+ol ol {
+  list-style-type: upper-latin;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ul ul {
+  list-style-type: circle;
+}
+
+dt {
+  color: ghostwhite;
+  font-weight: bold;
+}
+
+dd {
+  color: rgb(0, 0, 0);
+  font-style: normal;
+}
