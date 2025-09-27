@@ -1,0 +1,29 @@
+body {
+  background-color: cadetblue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav,
+h1 {
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  font-size: large;
+  padding: 18px 18px;
+  background-color: antiquewhite;
+  color: darkslategray;
+  border-radius: 18px;
+  margin-left: 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+nav a:hover {
+  color: darkslategray;
+  background: black;
+}
