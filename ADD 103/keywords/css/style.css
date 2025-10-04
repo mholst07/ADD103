@@ -1,0 +1,30 @@
+#logo {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #eee5dc;
+  color: #614737;
+}
+hr {
+  color: #614737;
+}
+h1,
+h2 {
+  text-align: center;
+}
+
+table img {
+  width: 500px;
+}
+
+table {
+  width: 75%;
+  margin: 0 auto;
+}
+
+td {
+  padding: 0 20px;
+}
