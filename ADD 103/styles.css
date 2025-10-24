@@ -1,0 +1,105 @@
+:root {
+  --color_blue: rgb(80, 164, 255);
+  --color_pink: rgb(255, 114, 114);
+  --color_yellow: rgb(255, 234, 0);
+  --color_green: rgb(80, 255, 103);
+}
+
+@font-face {
+  font-family: handlee_regular;
+  src: url(Handlee-Regular.ttf);
+}
+
+body {
+  background-image: url(images/coffee.jpg);
+  background-size: contain;
+}
+
+nav {
+  color: rgb(251, 247, 241);
+  text-shadow: 2px 2px 1px rgb(100, 93, 83);
+  background-color: rgb(50, 49, 49);
+  border-style: solid;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  margin: 0 auto 80px;
+  padding: 20px;
+  box-shadow: 5px 5px 5px rgb(71, 70, 70);
+}
+
+h1 {
+  display: inline-block;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h2 {
+  display: inline-block;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+a {
+  font-size: x-large;
+  color: rgb(1, 1, 1);
+}
+
+#desk {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+div.yellow {
+  text-align: center;
+  max-width: 300px;
+  flex-grow: 1;
+  min-width: 300px;
+  min-height: 300px;
+  background-color: var(--color_yellow);
+  transform: rotate(5deg);
+  box-shadow: 5px 5px 5px rgb(72, 72, 72);
+  font-family: handlee_regular;
+  padding-top: 15px;
+}
+
+div.pink {
+  text-align: center;
+  max-width: 300px;
+  flex-grow: 1;
+  min-width: 300px;
+  min-height: 300px;
+  background-color: var(--color_pink);
+  transform: rotate(20deg);
+  box-shadow: 5px 5px 5px rgb(72, 72, 72);
+  font-family: handlee_regular;
+  padding-top: 15px;
+}
+
+div.blue {
+  text-align: center;
+  max-width: 300px;
+  flex-grow: 1;
+  min-width: 300px;
+  min-height: 300px;
+  background-color: var(--color_blue);
+  transform: rotate(-15deg);
+  box-shadow: 5px 5px 5px rgb(72, 72, 72);
+  font-family: handlee_regular;
+  padding-top: 15px;
+}
+
+div.green {
+  text-align: center;
+  flex-grow: 1;
+  min-width: 300px;
+  min-height: 300px;
+  max-width: 300px;
+  background-color: var(--color_green);
+  transform: rotate(-20deg);
+  box-shadow: 5px 5px 5px rgb(72, 72, 72);
+  font-family: handlee_regular;
+  padding-top: 15px;
+}
