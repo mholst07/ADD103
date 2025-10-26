@@ -1,0 +1,253 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* my css starts here  */
+
+@font-face {
+  font-family: "Handlee-Font";
+  src: url(../fonts/Handlee-Regular.ttf);
+}
+
+header,
+footer {
+  background-color: #bfcc94;
+}
+
+body {
+  background-color: #f0f4ef;
+  font-family: "Handlee-Font";
+  margin: 0;
+  color: #0d1821;
+}
+
+footer p {
+  text-align: center;
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "Patrick Hand", cursive;
+}
+
+nav,
+h1 {
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+#main_text {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 20px;
+  max-width: 50%;
+  font-size: larger;
+}
+
+/* nav {
+  text-align: center;
+  margin-bottom: 30px;
+} */
+
+figure {
+  display: inline-block;
+  margin: 20px 40px 20px 40px;
+}
+
+nav a {
+  font-size: large;
+  padding: 18px 18px;
+  background-color: #b4cded;
+  border-radius: 18px;
+  margin-left: 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+nav a:hover {
+  color: #f0f4ef;
+  background: #344966;
+}
+
+nav a:visited {
+  color: #0d1821;
+}
+
+aside {
+  background: #b4cded;
+  box-shadow: 2px 2px 5px #000604;
+  margin: 40px;
+}
+
+figure img {
+  box-shadow: 2px 2px 5px rgb(33, 33, 34);
+}
+
+main {
+  margin: 40px 0 40px 0;
+}
+
+.patrick-hand-regular {
+  font-family: "Patrick Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.grid-container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto auto auto auto auto auto;
+  gap: 10px;
+  width: 100%;
+  background: beige;
+  box-sizing: border-box;
+}
+
+.gird-container > div {
+  background-color: #000604;
+  padding: 20xp 0;
+  min-height: 100px;
+  width: 100%;
+}
+
+.grid-container > div > img {
+  width: 90%;
+  margin: 10px auto;
+  display: block;
+  cursor: pointer;
+}
+
+#large {
+  width: 500px;
+}
