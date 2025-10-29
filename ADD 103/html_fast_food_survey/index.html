@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Favorite Fast Food Survey</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="form">
+      <form>
+        <h1 id="title">
+          Please fill out this survey to help an MCC student's assignment.
+        </h1>
+        <label for="fname">First name:</label><br />
+        <input type="text" id="fname" name="fname" autofocus /><br />
+        <label for="lname">Last name:</label><br />
+        <input type="text" id="lname" name="lname" /> <br />
+
+        <label for="frequency"
+          >How many days per week do you eat fast food?</label
+        >
+
+        <select name="frequency" id="frequency">
+          <option value="one">One</option>
+          <option value="two">Two</option>
+          <option value="three">Three</option>
+          <option value="four">Four</option>
+          <option value="five">Five</option>
+          <option value="six">Six</option>
+          <option value="seven">Seven</option>
+        </select>
+        <br />
+
+        <h2>Check All Of Your Favorite Fast Food Places:</h2>
+        <ul>
+          <li>
+            <input
+              type="checkbox"
+              id="mcdonalds"
+              name="mcdonalds"
+              value="mcdonalds"
+            />
+            <label for="apple">McDonalds</label>
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              id="chick_fil_a"
+              name="chick_fil_a"
+              value="chick_fil_a"
+            />
+            <label for="chick_fil_a">Chick Fil A</label>
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              id="taco_bell"
+              name="taco_bell"
+              value="taco_bell"
+            />
+            <label for="taco_bell">Taco Bell</label>
+          </li>
+          <li>
+            <input type="checkbox" id="kfc" name="kfc" value="kfc" />
+            <label for="kfc">KFC</label>
+          </li>
+        </ul>
+
+        <textarea
+          id="explain"
+          name="explain"
+          placeholder="Explain why those are your favorites."
+        ></textarea>
+        <br />
+
+        <input id="submit" type="submit" />
+      </form>
+    </div>
+  </body>
+</html>
