@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Introduction To Bootstrap</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet" />
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-sm text-bg-dark">
+        <div class="container-fluid">
+          <!-- Links -->
+          <ul class="navbar-nav align-items-center">
+            <li class="nav-item">
+              <h1>Bootstrap</h1>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-bg-dark" href="../bootstrap/index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-bg-dark"
+                href="../bootstrap_images_and_tables/index.html"
+                >Images and Tables</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-bg-dark" href="#">Scrollspy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-bg-dark" href="../sidebar/index.html"
+                >Sidebar</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-bg-dark" href="../collapsible/index.html"
+                >Collapsible</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <section
+        id="inside-section"
+        data-bs-spy="scroll"
+        data-bs-target="#scrollspy-nav"
+        data-bs-offset="50"
+        tabindex="0"
+        style="overflow-y: scroll; height: 500px; position: relative">
+        <nav
+          id="scrollspy-nav"
+          class="navbar bg-light px-3 mb-3"
+          style="position: sticky; top: 0">
+          <nav class="nav nav-pills">
+            <a class="nav-link" href="#main_dish">Main Dish</a>
+            <a class="nav-link" href="#sides">Sides</a>
+            <a class="nav-link" href="#deserts">Deserts</a>
+            <a class="nav-link" href="#beverages">Beverages</a>
+          </nav>
+        </nav>
+
+        <div>
+          <h1 id="main_dish" style="scroll-margin-top: 50px">Main Dish</h1>
+          <img src="images/images.jpg" alt="baked_turkey" />
+          <p>
+            The centerpiece of any Thanksgiving feast is the main dish,
+            traditionally highlighted by a golden, herb-roasted turkey. The
+            turkey is often seasoned with fresh herbs, garlic butter, and
+            aromatic vegetables, creating a rich aroma that fills the home. Some
+            families include a honey-glazed ham for added variety, offering a
+            sweet and savory contrast. For guests who prefer a plant-based
+            option, stuffed squash or hearty vegetable roasts can bring just as
+            much warmth and celebration to the table. The main dish sets the
+            tone for the entire meal, bringing everyone together around a
+            comforting and familiar tradition. -ChatGPT-
+          </p>
+
+          <h1 id="sides" style="scroll-margin-top: 50px">Sides</h1>
+          <img
+            src="images/thanksgiving-9927371_1280.jpg"
+            alt="mashed potatoes" />
+          <p>
+            Thanksgiving sides are often the most beloved part of the meal,
+            turning the dinner table into a colorful spread of comforting
+            flavors. Creamy mashed potatoes served with warm gravy, savory
+            stuffing filled with herbs and vegetables, and sweet potato
+            casserole topped with marshmallows are classic favorites. Bright and
+            crunchy dishes like green bean almondine or roasted Brussels sprouts
+            add balance to the richer items on the plate. These side dishes not
+            only complement the main entrée but also reflect the variety and
+            creativity of each family’s unique holiday traditions. -ChatGPT-
+          </p>
+
+          <h1 id="deserts" style="scroll-margin-top: 50px">Deserts</h1>
+          <img src="images/pumpkin-8431988_1280.jpg" alt="Pumpkin pie" />
+          <p>
+            Desserts are the grand finale of Thanksgiving, offering cozy,
+            nostalgic flavors that bring the feast to a sweet close. Pumpkin
+            pie, with its spiced custard filling and flaky crust, is the star of
+            many dessert tables. Pecan pie provides a rich, caramel-like
+            sweetness, while apple crisp or apple pie adds warm, cinnamon-spiced
+            comfort. For chocolate lovers, silky chocolate pies or gooey brownie
+            bars are always welcome. No matter the dessert, this course gives
+            everyone a chance to linger at the table a little longer and savor
+            the season. -ChatGPT-
+          </p>
+
+          <h1 id="beverages" style="scroll-margin-top: 50px">Beverages</h1>
+          <img src="images/apple-7977439_1280.jpg" alt="Apple cider" />
+          <p>
+            Thanksgiving beverages help set the mood and complement the meal
+            with festive flair. Warm drinks like hot apple cider or spiced tea
+            bring cozy autumn flavor to the celebration. Cold options such as
+            sparkling cranberry punch or flavored seltzers offer refreshing
+            alternatives for all ages. Many families also serve coffee or herbal
+            tea alongside dessert to finish the evening on a comforting note.
+            Whether warm or chilled, the right beverages help tie the entire
+            Thanksgiving experience together. -ChatGPT-
+          </p>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

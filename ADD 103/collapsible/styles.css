@@ -1,0 +1,13 @@
+.container-fluid {
+  width: 90%;
+}
+
+img {
+  width: 800px;
+  height: auto;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
